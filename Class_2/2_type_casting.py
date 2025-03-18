@@ -10,3 +10,10 @@ print(a + b)     # type conversion works here automatically, convert a to float 
 
 
 # **Type Casting**  ==> casting means which we need to implement manually
+a = 1
+b = "2"
+b = int(b)
+print(a + b)
+
+
+
