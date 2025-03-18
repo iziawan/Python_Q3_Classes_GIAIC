@@ -5,7 +5,6 @@
 # Arithmetic Operators
 
 
-
 a = 10
 b = 2
 
@@ -17,11 +16,7 @@ print(a // b)  # Floor Division
 print(a ** b) # a^b
 print(a % b) # Remainder
 
-
-
 # Relational or Comparision Operators => gives answer in True or False
-
-
 
 
 a = 50
@@ -34,10 +29,7 @@ print(a > b)   # a is greater than b  ==> True
 print(a <= b)  # a is less than or equal b  ==> False
 print(a >= b)  # a is greater than or equal to b  ==> True
 
-
-
 # Assignment Operators
-
 
 
 a, b = 10, 20
@@ -63,12 +55,7 @@ print(a) # 0
 a **= b  
 print(a) # 0.0
 
-
-
-
 # Logical Operators
-
-
 
 
 # And Operator
@@ -97,5 +84,7 @@ isElie = ""
 print(not isElie)
 
 a = "abcd"
-print("abc" not in a)
-print("abc" in a)          # in function is used to find something in collection!
+print("abc" not in a) #False
+
+# in function
+print("abc" in a)     #True      (in) function is used to find something in collection!
